@@ -5,6 +5,9 @@
     <meta charset  = "utf-8">
     
     <style>
+        body{
+            margin:0px;
+        }
         a{ /*selector*/
 
             /*declaration*/
@@ -16,13 +19,33 @@
             font-size: 45px;
             font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             text-align:center;
+            border-bottom: 1px solid grey;
+            margin: 0px;
+            padding: 40px;
+        }
+
+        #grid ol{
+            border-right: 1px solid grey;
+            width: 100px;
+            margin: 0px;
+            padding:20px;
+        }
+
+        #grid{
+            display: grid;
+            grid-template-columns: 150px 1fr;
         }
         
+        #article{
+            padding: 20px;
+            margin: 0px;
+        }
     </style>
 </head>
 
 <body>
     <h1><a href="1.html">Introduction of Liverpool FC</a></h1>
+    <div id="grid">
     <ol>
         <li><a href="2.history.html">History</a></li>
         <li><a href="3.player.html">Players</a></li>
@@ -37,6 +60,7 @@
         <li><a href="4.support.html"><font color ="red">Support</font></a></li>
     </ol>
     -->
+    <div id="article">
     <h2><a href="https://www.liverpoolfc.com/"target="_blank" title ="liverpoolfc official home">LIVERPOOL FC</a></h2>
         <strong>Liverpool FC</strong> is one of the world's most successful football clubs
     
@@ -49,10 +73,11 @@
         Liverpool is one of the most valuable and widely supported clubs in the world. The club has long-standing rivalries with Manchester United and Everton. Under management by Shankly, in 1964 the team changed from red shirts and white shorts to an all-red home strip which has been used ever since. 
         The club's anthem is "You'll Never Walk Alone".
         </p>
-    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/360px-Liverpool_FC.svg.png" width= "25%">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/360px-Liverpool_FC.svg.png" width= "30%">
 
+        </div>
+    
+</div>
 </body>
 </html>
 
-
-<!--박스모델부터 듣기-->
